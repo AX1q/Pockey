@@ -50,3 +50,24 @@ tree one
 - **编辑工具**：**`sublime，gedit`**
 ---
 > #### 其余详细信息 可点击[此处](https://blog.csdn.net/m0_46422300/article/details/104645072)
+# *Git的认识*
+![alt text](<Screenshot 2024-04-19 192758.png>)
+#### 1. ***`git config`*: 对于用户的设置**
+->*（git config --global user.name '名字'）*
+->*（git config --global user.email '邮箱'）*
+#### 2. ***`git init`*: git初始化,会进入主分支**
+#### 3. ***`git status`*: 表查看当前分支**
+#### 4. ***`git add`*: 添加内容**
+#### 5. ***`git commit`*: 总概况提交修改内容**
+->*（git commit -m '内容信息'）*
+#### 6. ***`git log`*: 查看前面版本**
+#### 7. ***`touch .gitignore`*: 隐匿文件 忽略文件**
+#### 8. ***`git branch`*: 查看分支**
+->*（git branch '分支名'  创建新分支）*
+->*（git branch -d '分支名' 删除分支     -D 非常确定删除）*
+->*（git branch -m '分支名' 把当前分支名改成...  -M 强制性）*
+#### 9. ***`git checkout（switch）`*: 切换到分支**
+->*（git checkout '分支名'  切换到分支上）*
+->*（git checkout -b '分支名'  创建并跳到该分支上）*
+#### 10. ***`git merge`*: 把别的分支合并到当前分支上**
+#### 11. ***`git remote`*: 查看本地所记录的远程仓库地址**
